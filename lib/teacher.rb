@@ -1,4 +1,4 @@
-class Teacher < User 
+class Teacher < User
 
   KNOWLEDGE = [
     "a String is a type of data in Ruby",
@@ -11,5 +11,8 @@ class Teacher < User
     "bash Ruby rvm update certs"
   ]
 
+  def teach
+
+  end
 
 end
